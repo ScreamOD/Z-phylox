@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tree of Life Cladogram</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tree of Life Cladogram</h1>
+  <p>
+    Demo: Eukaryota subtree (Domain to Species). Click nodes to expand/collapse. Search to highlight.<br>
+    <label for="dataset-select">Choose dataset:</label>
+    <select id="dataset-select">
+      <option value="otol_eukaryota_sample.json">Sample (Demo)</option>
+      <option value="otol_eukaryota_real.json">Eukaryota (Real OTOL)</option>
+    </select>
+  </p>
+  <input type="text" id="search" placeholder="Search taxa..." style="margin: 10px; width: 300px; padding: 4px;">
+  <div id="tree"></div>
+  <div id="tooltip" style="display:none; position:absolute; pointer-events:none; z-index:10;"></div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>

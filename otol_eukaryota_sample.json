@@ -1,0 +1,112 @@
+{
+  "name": "Eukaryota",
+  "rank": "domain",
+  "ott_id": 2759,
+  "taxonomy_path": ["Eukaryota"],
+  "children": [
+    {
+      "name": "Opisthokonta",
+      "rank": "supergroup",
+      "ott_id": 331920,
+      "taxonomy_path": ["Eukaryota", "Opisthokonta"],
+      "children": [
+        {
+          "name": "Metazoa",
+          "rank": "kingdom",
+          "ott_id": 33208,
+          "taxonomy_path": ["Eukaryota", "Opisthokonta", "Metazoa"],
+          "children": [
+            {
+              "name": "Chordata",
+              "rank": "phylum",
+              "ott_id": 7711,
+              "taxonomy_path": ["Eukaryota", "Opisthokonta", "Metazoa", "Chordata"],
+              "children": [
+                {
+                  "name": "Mammalia",
+                  "rank": "class",
+                  "ott_id": 40674,
+                  "taxonomy_path": ["Eukaryota", "Opisthokonta", "Metazoa", "Chordata", "Mammalia"],
+                  "children": [
+                    {
+                      "name": "Primates",
+                      "rank": "order",
+                      "ott_id": 9443,
+                      "taxonomy_path": [
+                        "Eukaryota", "Opisthokonta", "Metazoa", "Chordata", "Mammalia", "Primates"
+                      ],
+                      "children": [
+                        {
+                          "name": "Homo sapiens",
+                          "rank": "species",
+                          "ott_id": 770315,
+                          "taxonomy_path": [
+                            "Eukaryota", "Opisthokonta", "Metazoa", "Chordata", "Mammalia", "Primates", "Homo sapiens"
+                          ],
+                          "synonyms": ["Human", "Man", "H. sapiens"],
+                          "external_ids": {"NCBI": "9606"},
+                          "sources": [
+                            "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Archaeplastida",
+      "rank": "supergroup",
+      "ott_id": 874053,
+      "taxonomy_path": ["Eukaryota", "Archaeplastida"],
+      "children": [
+        {
+          "name": "Viridiplantae",
+          "rank": "kingdom",
+          "ott_id": 33090,
+          "taxonomy_path": ["Eukaryota", "Archaeplastida", "Viridiplantae"],
+          "children": [
+            {
+              "name": "Streptophyta",
+              "rank": "phylum",
+              "ott_id": 131567,
+              "taxonomy_path": ["Eukaryota", "Archaeplastida", "Viridiplantae", "Streptophyta"],
+              "children": [
+                {
+                  "name": "Magnoliopsida",
+                  "rank": "class",
+                  "ott_id": 3398,
+                  "taxonomy_path": [
+                    "Eukaryota", "Archaeplastida", "Viridiplantae", "Streptophyta", "Magnoliopsida"
+                  ],
+                  "children": [
+                    {
+                      "name": "Arabidopsis thaliana",
+                      "rank": "species",
+                      "ott_id": 3702,
+                      "taxonomy_path": [
+                        "Eukaryota", "Archaeplastida", "Viridiplantae", "Streptophyta", "Magnoliopsida", "Arabidopsis thaliana"
+                      ],
+                      "synonyms": ["Thale cress", "Mouse-ear cress"],
+                      "external_ids": {"NCBI": "3702"},
+                      "sources": [
+                        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3702"
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

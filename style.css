@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f5f5f5;
+}
+h1 {
+  text-align: center;
+}
+#tree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #bbb;
+}
+.node circle {
+  cursor: pointer;
+  transition: fill 0.2s;
+}
+.highlighted {
+  stroke: orange !important;
+  stroke-width: 6 !important;
+  fill: gold !important;
+}
+#tooltip {
+  pointer-events: none;
+}
+input#search {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+.loading-spinner circle {
+  animation: spin 1s linear infinite;
+  transform-origin: 0px 0px;
+}
+@keyframes spin {
+  100% { transform: rotate(360deg);}
+}
